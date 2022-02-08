@@ -1,0 +1,104 @@
+:root{
+    --primary-color: #4B4453;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+body{
+    margin:0;
+    padding: 0;
+}
+.login-page
+{
+    width: 100%;
+    height: 100vh;
+    background: #B0A8B9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form
+{
+    background-color: #fff;
+    box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.6);
+    font-family: 'Roboto', sans-serif;
+}
+
+.details
+{
+    padding: 32px;
+}
+
+.details .item 
+{
+    border-bottom: 0.2px solid rgba(0, 0, 0, 0.3);
+    padding: 21px 0px 5px 0px;
+
+}
+.details .item:last-child {
+    border:none;
+}
+
+
+
+.details .item div:nth-child(1){
+    color:var(--primary-color);
+    line-height: 24px;
+    font-size: 18px;
+    letter-spacing: 0.7px;
+    font-weight: bold;
+
+    
+    
+}
+
+input{
+    width: 100%;
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    border:none;
+    outline: none;
+    
+    
+}
+
+input::placeholder {
+
+    font-size: 14px;
+    font-weight: normal;    
+    
+
+}
+button[type="submit"] {
+    padding: 8px 32px;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 7px;
+    
+}
+
+.item2{
+    padding: 16px 0px 6px 0px;
+    margin-top: 10px;
+    
+}
+
+
+
+button:hover{
+    color: black;
+    background-color: #B0A8B9;
+    transition: 1000ms;
+    
+}
+
+
+
+
+
+
